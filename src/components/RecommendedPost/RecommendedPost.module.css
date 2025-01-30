@@ -1,0 +1,27 @@
+.recommended-post-title {
+    font-family: var(--secondary-color);
+    color: #363031;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+@media (max-width: 1100px) {
+    .posts {
+        margin-top: 0;
+        padding: 2rem 1.5rem 3.625rem;
+    }
+}
+
+@media (max-width: 744px) {
+    .posts {
+        padding: 2rem 1rem 3rem;
+    }
+}

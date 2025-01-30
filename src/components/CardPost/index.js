@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./CardPost.module.css";
+import PrimaryButton from "components/PrimaryButton";
 
 const CardPost = ({ post }) => {
     return (
@@ -11,9 +12,9 @@ const CardPost = ({ post }) => {
                     {post.title}
                 </h2>
 
-                <button className={styles['read-button']}>
+                <PrimaryButton>
                     Ler
-                </button>
+                </PrimaryButton>
             </div>
         </Link>
     );

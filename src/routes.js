@@ -8,10 +8,13 @@ import Home from "pages/Home";
 import Menu from "components/Menu";
 import Footer from "components/Footer";
 import Article from "pages/Article";
+import ScrollToTop from "components/ScrollToTop";
 
 const AppRoutes = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
+  
       <Menu />
       
       <Routes>
@@ -28,12 +31,12 @@ const AppRoutes = () => {
             path="about-me" 
             element={<AboutMe />} 
           />
-
-          <Route 
-            path="articles/:id" 
-            element={<Article />} 
-          />
         </Route>
+
+        <Route 
+          path="articles/:id" 
+          element={<Article />} 
+        />
 
         <Route 
           path="*" 

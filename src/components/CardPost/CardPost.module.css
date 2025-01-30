@@ -23,23 +23,6 @@
   margin: 1.5rem 0 1.75rem;
 }
 
-.read-button {
-  display: inline-block;
-  border-radius: 24px;
-  padding: 0.75rem 1.5rem;
-  font-size: 1.125rem;
-  line-height: 1.125rem;
-  background-color: var(--blue);
-  color: var(--branco);
-  border: 3px solid var(--blue);
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.read-button:hover {
-  border: 3px solid var(--dark-blue);
-}
-
 @media (max-width: 1100px) {
   .post {
     width: 336px;
@@ -47,10 +30,5 @@
 
   .title {
     font-weight: 600;
-  }
-
-  .read-button {
-    padding: 0.6875rem 1.5rem;
-    font-size: 1.375rem;
   }
 }
